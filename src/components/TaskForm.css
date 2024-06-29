@@ -1,0 +1,70 @@
+/* TaskForm.css */
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form label {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="checkbox"],
+  form button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  form input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form input[type="checkbox"] {
+    width: auto;
+    margin-top: 10px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  form .completed-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  form .completed-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  form .completed-checkbox label {
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+  }
+  
